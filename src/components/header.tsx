@@ -43,6 +43,20 @@ const Header = () => {
             <meta name="twitter:description" content="Developer Portfolio of @0xBuro"/>
             <meta name="twitter:image" content="/public/images/portfolio-light.png"/>
 
+                {/* Open Graph */}
+                <meta property="og:url" content="https://burakbo.vercel.app" />
+                <meta property="og:type" content="website" />
+                <meta
+                    property="og:title"
+                    content="Oguzhan Burak Bozkurt, Software Engineer"
+                />
+                <meta
+                    property="og:description"
+                    content="Nextjs + Sass Portfolio | burakbo"/>
+                <meta
+                    property="og:image"
+                    content="/public/images/portfolio-light.png"
+                />
 
             {/* link */}
             <link rel="icon" href="/public/favicon.ico"/>
