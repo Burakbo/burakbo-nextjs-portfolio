@@ -1,6 +1,9 @@
 ## dev portfolio
 
-my personal portfolio made with nextjs / TypeScript / Sass.
+my personal portfolio.
+made with nextjs / TypeScript / Sass
+
+https://burakbo.vercel.app/
 
 ![burakbo's portfolio](public/images/portfolio-light.png)
 
