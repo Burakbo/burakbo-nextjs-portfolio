@@ -1,0 +1,11 @@
+@import "../shared/_variables";
+@import "../shared/_mixins";
+
+.switchStyle {
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: $text-s;
+  font-family: SB, sans-serif;
+  text-align: left;
+  cursor: pointer;
+}

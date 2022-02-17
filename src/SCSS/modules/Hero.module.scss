@@ -1,0 +1,105 @@
+@import '../main';
+
+.heroSection {
+  margin-top: 24px;
+  margin-bottom: 16px;
+  padding: 16px
+}
+
+.heroRow {
+  @include flex-column-center;
+  padding-left: $side-pd;
+  padding-right: $side-pd;
+
+}
+
+@media screen and (min-width: $breakpoint-m) {
+  .heroRow {
+    @include flex-row-center;
+    text-align: left;
+    padding-top: 16px;
+  }
+}
+
+// column
+
+.heroColumn {
+  font-size: $text-mobile;
+  padding-top: $pd;
+  text-align: center;
+
+  .subtitle {
+    font-family: Pixelfont, sans-serif;
+    font-size: $text-mobile;
+  }
+
+  .plang {
+    font-size: $text-mobile;
+  }
+
+  .socialnetwork {
+    font-size: $text-xl;
+    a {
+      margin-left: 24px;
+    } :hover {
+        opacity: 90%;
+      }
+  }
+
+
+}
+
+@media screen and (min-width: $breakpoint-t) {
+  .heroColumn {
+    font-size: $text-s;
+    padding-left: $side-pd;
+    padding-right: $side-pd;
+    text-align: left;
+
+  }
+  .plang {
+    font-size: $text-s;
+  }
+  .subtitle {
+    font-size: $text-s;
+    text-align: left;
+  }
+  .socialnetwork {
+    font-size: $text-xxl;
+    text-align: left;
+  }
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  min-width: 128px;
+  min-height: 128px;
+  background: $gardient-shimmer;
+  border-radius: $circle;
+  background-size: 300% 300%;
+  @include shimmer-animation;
+}
+
+.avatar {
+  width: 120px;
+  height: 120px;
+  border-radius: $circle;
+  overflow: hidden;
+  .status-overlay {
+    background-color: white;
+    position: absolute;
+    top: 32px;
+    left: 32px;
+    z-index: 1;
+    padding: 2px;
+    border-radius: 12px;
+  }
+}
+
+.aboutText {
+  text-align: left;
+}
+

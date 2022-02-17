@@ -1,0 +1,15 @@
+/*
+  import file for styles
+*/
+
+//global styles
+@import "./shared/_variables";
+@import "./shared/_mixins";
+@import "./shared/_darkMode";
+
+//components styles
+@import "./components/commons";
+@import "./components/buttons";
+@import "./components/themeSwitch";
+@import "./components/cards";
+

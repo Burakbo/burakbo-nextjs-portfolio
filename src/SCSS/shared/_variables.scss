@@ -1,0 +1,52 @@
+//Font
+$font-main: "Pixelfont", sans-serif;
+$font-big: "SB", sans-serif;
+
+//Font-size map
+$text-mobile: 0.85rem;
+$text-xs: 1rem;
+$text-s: 1.2rem;
+$text-m: 1.4rem;
+$text-l: 1.6rem;
+$text-xl: 1.8rem;
+$text-xxl: 2.4rem;
+
+
+//Breakpoint
+$breakpoint-s: 400px;
+$breakpoint-t: 560px;
+$breakpoint-m: 768px;
+$breakpoint-l: 1024px;
+
+
+//Colors
+$black: #000;
+$white: #ffffff;
+$suffix-color: #d3d3d3;
+$hover-dark-color: #363636;
+$gardient-shimmer: linear-gradient(
+                80deg,
+                hsl(347, 62%, 59%),
+                hsl(214, 50%, 56%),
+                hsl(278, 87%, 63%),
+                hsl(353, 82%, 61%),
+                hsl(347, 62%, 59%),
+                hsl(353, 82%, 61%),
+                hsl(44, 86%, 71%),
+                hsl(43, 71%, 75%),
+                hsl(43, 96%, 68%)
+);
+
+
+//Spacing, Shapes, Shadow
+$spacing: 0.5rem;
+$pd: 1.5rem;
+$side-pd: 25%;
+$circle: 50%;
+$rounded-corner: 2rem;
+$shadow: 0px 4px 27px 0px rgba(0,0,0,0.2);
+
+
+
+
+

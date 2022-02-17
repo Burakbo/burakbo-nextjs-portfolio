@@ -1,0 +1,13 @@
+@import "../main";
+
+.projectTitle {
+  letter-spacing: 0.1em;
+  font-size: $text-mobile;
+  font-family: SB, sans-serif;
+  text-align: left;
+}
+
+.projectDesc {
+  font-size: $text-mobile;
+  max-width: 320px;
+}

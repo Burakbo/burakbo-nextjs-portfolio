@@ -1,0 +1,32 @@
+@import "../shared/_variables";
+@import "../shared/_mixins";
+
+.projectCardContainer {
+  box-sizing: border-box;
+  display: inline-block;
+  overflow: hidden;
+  width: initial;
+  height: initial;
+  background-color: $white;
+  opacity: 1;
+  padding: 0;
+  position: relative;
+  border: 0.1rem solid $white;
+  border-radius: 30px;
+  margin-top: 16px;
+  max-width: 100%;
+}
+
+.projectCard {
+  width: 240px;
+  height: 134px;
+  box-sizing: border-box;
+  display: block;
+  background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+  opacity: 1;
+  border: 0 none;
+  margin: 0;
+  padding: 0;
+
+}
+

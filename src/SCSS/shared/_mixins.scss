@@ -1,0 +1,27 @@
+//Animation
+@mixin shimmer-animation {
+  animation: shimmerAnimation 7s alternate infinite;
+  @keyframes shimmerAnimation {
+    50% {
+      background-position: 100% 50%;
+    }
+  }
+}
+
+//Flex
+@mixin flex-column-center  {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+@mixin flex-row-center {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+
+}

@@ -1,0 +1,18 @@
+@import "../shared/_variables";
+@import "../shared/_mixins";
+
+.cta {
+  margin-top: 16px;
+  margin-bottom: 16px;
+  color: $white;
+  text-transform: uppercase;
+  padding: 1rem 2rem;
+  background-color: $black;
+  border: 2px solid $white;
+  border-radius: 0.3em;
+  &:hover {
+    opacity: 90%;
+    box-shadow: 0 0 0 2px white, 0 0 #363636;
+  }
+}
+
