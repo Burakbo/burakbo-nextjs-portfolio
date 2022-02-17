@@ -1,7 +1,7 @@
 ## dev portfolio
 
 my personal portfolio.
-made with nextjs / TypeScript / Sass
+made with Nextjs / TypeScript / Sass
 
 https://burakbo.vercel.app/
 
@@ -18,5 +18,6 @@ https://burakbo.vercel.app/
 - [ ] cleaner architecture for sass + next components
 - [x] dark mode
 - [x] deploy to vercel
-- [ ] add dynamic content with mdx / add Projects
+- [ ] add dynamic content / add Projects
 - [ ] add custom floating button
+- [ ] add mdx blog
