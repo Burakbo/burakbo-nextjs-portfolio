@@ -52,7 +52,7 @@ const Projects = () => {
                 building a full-stack / mobile app (ios / android) while keeping an eye on our current budget.
             </p>
             <p className={styles.projectDesc}>
-                (startup) built with: <br/>Flutter / Firebase / Cloud Functions
+                (startup) built with: <br/>Flutter / Firebase / Nextjs / Cloud Functions (nodejs)
             </p>
             <span className={styles.projectCardContainer}>
                 <span className={styles.projectCard}>
