@@ -88,7 +88,7 @@ const Projects = () => {
             <p className={styles.projectDesc}>
                 my first android application released on the Google Play Store.
                 this project helped me learn about building a production ready
-                app from writing the code to actually deploying it on a third party store
+                app from writing the code to actually deploying it to a third party store
                 and monetizing it with ads.
                 <p className={styles.projectDesc}>
                     (android app) built with: <br/>Kotlin / Google AdMob
