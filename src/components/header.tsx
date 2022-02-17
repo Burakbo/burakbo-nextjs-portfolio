@@ -41,12 +41,12 @@ const Header = () => {
             <meta name="twitter:site" content="@0xBuro"/>
             <meta name="twitter:title" content="Oguzhan Burak Bozkurt, Software Engineer"/>
             <meta name="twitter:description" content="Developer Portfolio of @0xBuro"/>
-            <meta name="twitter:image" content=""/>
+            <meta name="twitter:image" content="/public/images/portfolio-light.png"/>
 
 
             {/* link */}
             <link rel="icon" href="/public/favicon.ico"/>
-            <link rel="canonical" href=""/>
+            <link rel="canonical" href="https://burakbo.vercel.app"/>
             <link rel="apple-touch-icon" href="/public/favicon.ico"/>
         </Head>
     )
