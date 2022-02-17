@@ -41,7 +41,7 @@ const Header = () => {
             <meta name="twitter:site" content="@0xBuro"/>
             <meta name="twitter:title" content="Oguzhan Burak Bozkurt, Software Engineer"/>
             <meta name="twitter:description" content="Developer Portfolio of @0xBuro"/>
-            <meta name="twitter:image" content="/images/portfolio-light.png"/>
+            <meta name="twitter:image" content="https://burakbo.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fportfolio-light.654560b0.png&w=3840&q=75"/>
 
                 {/* Open Graph */}
                 <meta property="og:url" content="https://burakbo.vercel.app" />
@@ -55,13 +55,13 @@ const Header = () => {
                     content="Nextjs + Sass Portfolio | burakbo"/>
                 <meta
                     property="og:image"
-                    content="/images/portfolio-light.png"
+                    content="https://burakbo.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fportfolio-light.654560b0.png&w=3840&q=75"
                 />
 
             {/* link */}
-            <link rel="icon" href="/public/icons/favicon.ico"/>
+            <link rel="icon" href="/icons/favicon.ico"/>
             <link rel="canonical" href="https://burakbo.vercel.app"/>
-            <link rel="apple-touch-icon" href="/public/icons/favicon.ico"/>
+            <link rel="apple-touch-icon" href="/icons/favicon.ico"/>
         </Head>
     )
 }
